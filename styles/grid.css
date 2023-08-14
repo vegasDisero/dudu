@@ -15,3 +15,15 @@
     margin-bottom: 7px;
     text-align: center;
 }
+@media screen and (min-width: 1024px) {
+    .Imagem{
+        border: 5px solid ;
+        width: 180px!important;
+        height: 160px!important;
+    }
+    .titulo{
+        font-size: 30px;
+        color: black;
+    }
+     
+}

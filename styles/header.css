@@ -23,10 +23,11 @@
     padding: 1em;
 }
 .lista-menu{
+    background-color: var(--branco);
     display: none;
     position: absolute;
     top: 100%;
-    width: 60vw;
+    width: 40vw;
 }
 .container__botao:checked~.lista-menu{
     display: block;
@@ -44,4 +45,14 @@ background-color: var(--branco);
 }
 .container__botao{
     display: none;
+}
+@media screen and (min-width: 1024px) {
+    .titulo__cabecalho{
+       font-size: 40px;
+       font-family: var(--font-secundaria);
+       color:black;
+       display: block;
+    }
+        
+    
 }
